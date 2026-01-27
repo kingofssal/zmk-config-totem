@@ -37,6 +37,11 @@
             key-positions = <9 8>;
             bindings = <&kp BACKSPACE>;
         };
+
+        combos_esc {
+            bindings = <&kp ESC>;
+            key-positions = <0 1>;
+        };
     };
 
     macros {
@@ -78,10 +83,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-                &kp Q             &kp W  &kp E             &kp R         &kp T          &kp Y        &kp U    &kp I           &kp O    &kp P
-                &kp A             &kp S  &kp D             &kp F         &kp G          &kp H        &kp J    &kp K           &kp L    &kp ENTER
-&kp LEFT_SHIFT  &mt LEFT_SHIFT Z  &kp X  &kp C             &kp V         &kp B          &kp N        &kp M    &kp COMMA       &kp DOT  &kp RIGHT_SHIFT  &kp DELETE
-                                         &kp LEFT_CONTROL  &kp LEFT_ALT  &lt 1 SPACE    &lt 2 SPACE  &kp TAB  &lt 3 LEFT_GUI
+            &kp Q             &kp W  &kp E             &kp R         &kp T          &kp Y        &kp U    &kp I           &kp O    &kp P
+            &kp A             &kp S  &kp D             &kp F         &kp G          &kp H        &kp J    &kp K           &kp L    &kp ENTER
+&kp DELETE  &mt LEFT_SHIFT Z  &kp X  &kp C             &kp V         &kp B          &kp N        &kp M    &kp COMMA       &kp DOT  &kp RIGHT_SHIFT  &kp BACKSPACE
+                                     &kp LEFT_CONTROL  &kp LEFT_ALT  &lt 1 SPACE    &lt 2 SPACE  &kp TAB  &lt 3 LEFT_GUI
             >;
         };
 
@@ -104,10 +109,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-       &kp LPAR   &kp RPAR   &kp UNDER  &kp BACKSLASH  &kp PLUS     &kp N7     &kp N8     &kp N9      &kp ASTERISK  &kp BACKSPACE
-       &kp PRCNT  &kp CARET  &kp AMPS   &kp PIPE       &kp MINUS    &kp N4     &kp N5     &kp N6      &kp EQUAL     &kp KP_ENTER
-&none  &kp EXCL   &kp AT     &kp HASH   &kp DLLR       &kp ESC      &kp N1     &kp N2     &kp N3      &kp SLASH     &kp GRAVE      &kp RIGHT_SHIFT
-                             &none      &kp ENTER      &none        &kp SPACE  &kp KP_N0  &kp PERIOD
+           &kp LPAR   &kp RPAR   &kp UNDER  &kp BACKSLASH  &kp PLUS     &kp N7     &kp N8     &kp N9      &kp ASTERISK  &kp BACKSPACE
+           &kp PRCNT  &kp CARET  &kp AMPS   &kp PIPE       &kp MINUS    &kp N4     &kp N5     &kp N6      &kp EQUAL     &kp KP_ENTER
+&kp TILDE  &kp EXCL   &kp AT     &kp HASH   &kp DLLR       &kp ESC      &kp N1     &kp N2     &kp N3      &kp SLASH     &kp QUESTION   &kp GRAVE
+                                 &none      &kp ENTER      &none        &kp SPACE  &kp KP_N0  &kp PERIOD
             >;
         };
 
