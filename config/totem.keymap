@@ -136,7 +136,7 @@
             bindings = <
        &none           &kp HOME     &kp UP    &kp END        &kp TAB         &none             &none              &none          &none              &none
        &none           &kp LEFT     &kp DOWN  &kp RIGHT      &kp CAPSLOCK    &kp LBRC          &kp RIGHT_BRACE    &kp COLON      &kp SINGLE_QUOTE   &none
-&none  &kp LEFT_SHIFT  &kp PAGE_UP  &none     &kp PAGE_DOWN  &none           &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp SEMICOLON  &kp DOUBLE_QUOTES  &none  &none
+&none  &kp LEFT_SHIFT  &kp PAGE_UP  &none     &kp PAGE_DOWN  &none           &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp SEMICOLON  &kp DOUBLE_QUOTES  &kp QUESTION  &none
                                     &none     &gif           &none           &none             &none              &none
             >;
         };
