@@ -108,10 +108,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-        &kp UNDER  &kp BACKSLASH  &kp PIPE  &kp GRAVE  &kp TILDE                &kp PLUS   &kp N7     &kp N8      &kp N9  &kp ASTERISK
-        &kp PRCNT  &kp CARET      &kp AMPS  &kp LPAR   &kp RIGHT_PARENTHESIS    &kp EQUAL  &kp N4     &kp N5      &kp N6  &kp ENTER
-&trans  &kp EXCL   &kp AT         &kp HASH  &kp DLLR   &kp ENTER                &kp MINUS  &kp N1     &kp N2      &kp N3  &kp SLASH     &trans
-                                  &trans    &trans     &trans                   &kp SPACE  &kp KP_N0  &kp PERIOD
+        &kp UNDER  &kp BACKSLASH  &kp PIPE  &kp GRAVE  &kp TILDE                &kp PLUS   &kp N7      &kp N8  &kp N9  &kp ASTERISK
+        &kp PRCNT  &kp CARET      &kp AMPS  &kp LPAR   &kp RIGHT_PARENTHESIS    &kp EQUAL  &kp N4      &kp N5  &kp N6  &kp ENTER
+&trans  &kp EXCL   &kp AT         &kp HASH  &kp DLLR   &kp ENTER                &kp MINUS  &kp N1      &kp N2  &kp N3  &kp SLASH     &trans
+                                  &trans    &trans     &trans                   &kp N0     &kp PERIOD  &none
             >;
         };
 
